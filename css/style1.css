@@ -1,0 +1,335 @@
+main{
+  background-image:url(../imag/imag2/BaconGallupPark.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     height:200px;
+     width: 100%;
+     padding: 10% 15% ;
+     color:  bisque;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+   justify-content:  center;
+     gap: 10px;
+     
+   
+    margin: auto;
+     
+text-shadow: 2px 2px 6px black; 
+}
+.content a{
+    color:bisque
+}
+header{
+   background-color: #2A7A4F;
+  color: #FFF8E1;
+    width: 100%;
+    height:170px;
+    display: flex;
+    align-items: last baseline;
+    justify-content: last baseline;
+ 
+}
+.navbar{
+    justify-content: space-between;
+    
+}
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color:  #333;
+}
+
+.nav-links{
+    display: flex;
+gap:50px;
+}
+.nav-links a {
+    text-decoration: none;
+ 
+    font-weight: 500;
+      color: #FFF8E1;
+    font-size: 17px;
+     transition: color 0.3s;
+}
+.nav-links a:hover {
+     color: #FF6B35;
+}
+main {
+  background-color: rgba(46, 139, 87, 0.45);
+  color: #FFF8E1;
+}
+.content a {
+  color: #FFF8E1;
+}
+section{
+   background-color: #FBF1DA;
+    
+}
+
+   
+ .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+ 
+.footer-left h3 {
+  color: #2E8B57;
+}
+.features li {
+  color: #8B4513;
+}
+.footer h3 {
+ 
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.features {
+    list-style:circle;
+    padding-left: 20px;
+}
+.features li {
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+ 
+  footer {
+    
+    
+  background-color: #2E8B57;
+  color: #FFF8E1;
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+}
+.contact-info p {
+    margin-bottom: 5px;
+    font-size: 16px;
+   
+}
+.footer-right h3{
+    color: #333;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin-bottom: 0 !important;
+}
+
+.footer {
+    margin-top: 0 !important;
+}
+ 
+  
+ 
+  .menu section{
+    background-color: #FFF8E1; /* Warm cream - matches homepage */
+}
+   
+.menu header {
+    background-color: #2E8B57; /* Sea green - matches fresh ingredients theme */
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF8E1; /* Warm cream text */
+    flex-direction: column;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.menu h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #FFF8E1;
+}
+
+.menu h2 {
+    font-size: 1.8em;
+    color: #FFF8E1;
+}
+
+/* Main container */
+.menu .con {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    background-color: #FFF8E1; /* Same warm cream as homepage */
+}
+.menu header .nav-links {
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.menu header .nav-links a {
+    color: #FFF8E1;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #FFF8E1;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu header .nav-links a:hover {
+    background-color: #FFF8E1;
+    color: #2E8B57;
+}
+/* Section cards */
+.menu-section {
+    background-color: #FFFFFF; /* Pure white cards */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(46, 139, 87, 0.15); /* Green shadow */
+    border: 2px solid #2E8B57; /* Sea green border */
+    transition: all 0.3s ease;
+}
+
+.menu-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(46, 139, 87, 0.25);
+}
+
+.menu-section h2 {
+    font-size: 24px;
+    color: #2E8B57; /* Sea green */
+    text-align: center;
+    border-bottom: 2px solid #FF6B35; /* Vibrant orange accent */
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #8FBC8F; /* Sage green divider */
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.menu .con h3 {
+    font-size: 18px;
+    color: #8B4513; /* Saddle brown for food names */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.menu .con p {
+    font-size: 14px;
+    color: #8B4513; /* Saddle brown for descriptions */
+    margin-bottom: 5px;
+    line-height: 1.4;
+    font-style: italic;
+}
+
+.menu .con span {
+    color: #C41E3A; /* Ruby red for prices */
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.us{
+        background-color: #FFF8E1; /* soft cream background */
+    color: #5D4037;
+}
+.us header{
+      background-color: #C41E3A; /* bright ruby red header */
+    color: #FFF8E1;
+    height: 150px;
+    line-height: 1.2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.us header .nav-links{
+   
+   color: #FFF8E1;
+    margin-top:12px;
+    display: flex;
+}
+.us header .nav-links a{
+     color: #FFF8E1;
+     padding:8px 16px;
+      border: 1px solid #FFF8E1;
+     border-radius: 5px;
+}
+.us header .nav-links a:hover{
+        color: #FF6B35; 
+    color: #2E8B57; /* sea green on hover */
+}
+.about{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px; background-color: #fbefd8; /* lighter cream section */
+}
+.about p{
+    font-style: oblique;
+     color: #8B4513;
+}
+.about h2{
+    font-style: italic;
+     color: #2E8B57;
+}
+.us .imag{
+    background-color:lightsalmon;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+     align-content: center;
+    padding:20px;
+    
+
+}
+.imag img{
+     height:200px;
+    width:100%;
+    border-style: solid;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.us .imag img{
+    transition: all 0.4s ease-in-out;
+     border: 3px solid #FF6B35;
+}
+.us .imag img:hover{
+    border-radius: 50%;
+    object-fit: cover;
+     border-color: #2E8B57;
+}
+ .us footer {
+    background-color: #2E8B57; /* sea green */
+    color: #FFF8E1; /* cream text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+}
